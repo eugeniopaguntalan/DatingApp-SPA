@@ -9,7 +9,6 @@ import {
 } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
-import { stringify } from 'querystring';
 
 @Injectable()
 export class ErrorInterceptor implements HttpInterceptor {
